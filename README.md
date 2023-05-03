@@ -1,6 +1,6 @@
 # Cryptography
 
-This repository contains programs which help encrypt and decrypt various ciphers which were discussed in LE/EECS 4161: Mathematics of Cryptography. 
+This repository contains programs which help encrypt and decrypt various ciphers that were discussed in LE/EECS 4161: Mathematics of Cryptography. 
 
 While the [original repository](https://github.com/stoyonaga/EECS-Notes/tree/main/EECS%204161) with the helper programs for the assignments still remains accessible, these newer programs offer more functionalities in addition to support and scalability.
 
