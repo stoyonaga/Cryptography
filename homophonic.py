@@ -47,7 +47,6 @@ def decrypt_ciphertext(ct: str, k: str) -> str:
     ct = list(map(int, ct.split(" ")))
     print(ct)
 
-
     for char in ct:
         for row in range(1, len(rect)):
             if char in rect[row]:
