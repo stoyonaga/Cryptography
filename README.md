@@ -14,6 +14,6 @@ Assignment ID | Program | Improvements
 4 | playfair.py | Code has been refactored and additional functions have been added to support the learning objectives of this assignment.
 5 | homophonic.py |  Added encryption and decryption support.
 6 | ADFGVX.py | Added encryption and decryption support.
-7 | Vername (Two-Tape) Cipher | Added encryption and decryption support.
+7 | Vernam (Two-Tape) Cipher | Added encryption and decryption support.
 
 In the future, other ciphers which are not discussed in EECS 4161 may be added here (for fun!). 
