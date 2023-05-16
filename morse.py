@@ -1,5 +1,7 @@
 import winsound
 import time
+import re
+
 """
 References:
     - https://en.wikipedia.org/wiki/Morse_code
@@ -52,6 +54,11 @@ alphabet = {
 }
 
 
+def clean_text(s: str) -> str:
+    # Remove all non-alpha
+    return re.sub('[^a-zA-Z0-9]+', ' ', s).upper()
+
+
 def tone_length(dit: int) -> dict:
     scale = 0.03
     mapping = {
@@ -64,7 +71,7 @@ def tone_length(dit: int) -> dict:
 
 
 def encryption(plaintext: str) -> str:
-    words = plaintext.upper().split(" ")
+    words = clean_text(plaintext).split(" ")
     ciphertext = ""
     for word in words:
         for letter in word:
